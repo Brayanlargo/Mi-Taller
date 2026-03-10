@@ -1,0 +1,26 @@
+/* Autor: Brayan Steven Largo Ramirez  */
+/* Ejercicio 2 - Catalogo de Peliculas */
+
+.catalogo {
+  padding: 30px 20px;
+  background-color: #0f0f1a;
+  min-height: 100vh;
+}
+
+.catalogo-titulo {
+  font-family: "Courier New", monospace;
+  color: #e94560;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  border-bottom: 2px solid #e94560;
+  padding-bottom: 15px;
+}
+
+.catalogo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}

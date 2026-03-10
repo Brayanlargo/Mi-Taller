@@ -1,0 +1,75 @@
+/* Autor: Brayan Steven Largo Ramirez */
+/* Estilos para las tarjetas  */
+
+.tarjeta {
+  border-radius: 12px;
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  height: fit-content;
+  font-family: "Courier New", monospace;
+}
+
+.tarjeta h2 {
+  padding-bottom: 8px;
+  margin-top: 0;
+}
+
+.tarjeta-azul {
+  border: 2px solid #4fc3f7;
+  background-color: #0d1b2a;
+  color: #e0f7fa;
+  box-shadow: 0 0 15px rgba(79, 195, 247, 0.4);
+}
+.tarjeta-azul h2 {
+  color: #4fc3f7;
+  border-bottom: 1px solid #4fc3f7;
+}
+.tarjeta-azul strong {
+  color: #90caf9;
+}
+
+.tarjeta-verde {
+  border: 2px solid #66bb6a;
+  border-radius: 4px;
+  background-color: #1b2e1b;
+  color: #e8f5e9;
+  box-shadow: 0 0 15px rgba(102, 187, 106, 0.4);
+}
+.tarjeta-verde h2 {
+  color: #66bb6a;
+  border-bottom: 1px solid #66bb6a;
+}
+.tarjeta-verde strong {
+  color: #a5d6a7;
+}
+
+.tarjeta-naranja {
+  border: 2px solid #ffa726;
+  border-radius: 20px;
+  background-color: #2e1a00;
+  color: #fff8e1;
+  box-shadow: 0 0 15px rgba(255, 167, 38, 0.4);
+}
+.tarjeta-naranja h2 {
+  color: #ffa726;
+  border-bottom: 1px solid #ffa726;
+}
+.tarjeta-naranja strong {
+  color: #ffcc80;
+}
+
+.tarjeta-violeta {
+  border: 2px solid #ce93d8;
+  border-radius: 8px;
+  background-color: #1a0a2e;
+  color: #f3e5f5;
+  box-shadow: 0 0 15px rgba(206, 147, 216, 0.4);
+}
+.tarjeta-violeta h2 {
+  color: #ce93d8;
+  border-bottom: 1px solid #ce93d8;
+}
+.tarjeta-violeta strong {
+  color: #e1bee7;
+}

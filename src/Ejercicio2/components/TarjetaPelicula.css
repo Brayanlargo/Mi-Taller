@@ -1,0 +1,68 @@
+/* Autor: Brayan Steven Largo Ramirez  */
+/* Ejercicio 2 - Catalogo de Peliculas */
+
+.tarjeta-pelicula {
+  background-color: #1a1a2e;
+  border: 1px solid #e94560;
+  border-radius: 10px;
+  padding: 20px;
+  width: 320px;
+  font-family: "Courier New", monospace;
+  color: #eaeaea;
+  box-shadow: 0 0 15px rgba(233, 69, 96, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tarjeta-pelicula:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 0 25px rgba(233, 69, 96, 0.4);
+}
+
+.tarjeta-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+  border-bottom: 1px solid #e94560;
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+.tarjeta-titulo {
+  font-size: 1rem;
+  color: #e94560;
+  margin: 0;
+}
+
+.calificacion {
+  font-size: 0.75rem;
+  padding: 4px 8px;
+  border-radius: 20px;
+  white-space: nowrap;
+  font-weight: bold;
+}
+
+.cal-excelente {
+  background-color: #1b5e20;
+  color: #a5d6a7;
+}
+
+.cal-buena {
+  background-color: #e65100;
+  color: #ffe0b2;
+}
+
+.cal-regular {
+  background-color: #4a148c;
+  color: #e1bee7;
+}
+
+.tarjeta-body p {
+  margin: 6px 0;
+  font-size: 0.9rem;
+}
+
+.etiqueta {
+  color: #e94560;
+  font-weight: bold;
+}
