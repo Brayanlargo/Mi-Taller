@@ -2,19 +2,19 @@
 /* Ejercicio 2 - Catalogo de Peliculas */
 
 .catalogo {
-  padding: 30px 20px;
-  background-color: #0f0f1a;
-  min-height: 100vh;
+  padding: 10px 20px 30px;
+  background-color: transparent;
+  min-height: auto;
 }
 
 .catalogo-titulo {
   font-family: "Courier New", monospace;
-  color: #e94560;
+  color: #cc0000;
   text-align: center;
   font-size: 2rem;
   margin-bottom: 30px;
   letter-spacing: 2px;
-  border-bottom: 2px solid #e94560;
+  border-bottom: 2px solid #cc0000;
   padding-bottom: 15px;
 }
 
